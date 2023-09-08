@@ -11,12 +11,21 @@ class CustomTextField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     bool obscureText = false;
     return TextFormField(
       controller: controller,
       obscureText: obscureText,
       decoration: InputDecoration(
         fillColor: Colors.grey ,
+=======
+    //bool obscureText = false;
+    return TextFormField(
+      controller: controller,
+     // obscureText: obscureText,
+      decoration: InputDecoration(
+        fillColor: Colors.grey[200] ,
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
         filled: true,
         hintText: hintext,
         enabledBorder: OutlineInputBorder(

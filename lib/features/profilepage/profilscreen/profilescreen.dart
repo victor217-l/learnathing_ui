@@ -39,19 +39,31 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         children: [
                           Column(
                             children: [
+<<<<<<< HEAD
                               Text("323", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17)),
+=======
+                              Text("323", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13)),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                               Text("Post")
                             ],
                           ),
                           Column(
                             children: [
+<<<<<<< HEAD
                               Text("323", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17)),
+=======
+                              Text("323", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13)),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                               Text("Following")
                             ],
                           ),
                           Column(
                             children: [
+<<<<<<< HEAD
                               Text("323", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17)),
+=======
+                              Text("323", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13)),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                               Text("Views")
                             ],
                           )
@@ -90,7 +102,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             padding: EdgeInsets.all(8),
                             child: Center(child: Text('Edit Profile'),),
                             decoration: BoxDecoration(
+<<<<<<< HEAD
                               border: Border.all(color: Colors.black, width: 1 ),
+=======
+                              border: Border.all(color: Colors.grey ),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                               borderRadius: BorderRadius.circular(15),
                             ),
                           ),
@@ -101,9 +117,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       child: Expanded(
                         child: Container(
                           padding: EdgeInsets.all(8),
+<<<<<<< HEAD
                           child: Center(child: Text('Add Profile'),),
                           decoration: BoxDecoration(
                             border: Border.all(color: Colors.black , width: 1),
+=======
+                          child: Center(child: Text('Ad Profile'),),
+                          decoration: BoxDecoration(
+                            border: Border.all(color: Colors.grey ),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                             borderRadius: BorderRadius.circular(15),
                           ),
                         ),
@@ -113,9 +135,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ],
                 ),
               ),
+<<<<<<< HEAD
               TabBar(
                 indicatorColor: Colors.black ,
                   tabs: [
+=======
+              TabBar(tabs: [
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                 Tab(
                   icon: Icon(Icons.grid_3x3_outlined, color: Colors.black54, ),
                 ),

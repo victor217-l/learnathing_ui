@@ -22,7 +22,11 @@ class _StartScreen2State extends State<StartScreen2> {
            children: [
              ClipRRect(
                borderRadius: BorderRadius.all(Radius.circular(25)),
+<<<<<<< HEAD
                  child: Image.asset("image/Rectangle34.png",fit: BoxFit.cover,)),
+=======
+                 child: Image.asset("image/Rectangle34.png", height: 60, width: 60, fit: BoxFit.cover,)),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
              SizedBox(height: 10,),
              Text("username", style: TextStyle(color: Colors.black),),
              SizedBox(height: 5,),

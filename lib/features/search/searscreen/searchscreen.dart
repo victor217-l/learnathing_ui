@@ -70,7 +70,11 @@ class _SearchScreenState extends State<SearchScreen> {
                             left: 0, // You can adjust the left position as needed
                             right: 0, // You can adjust the right position as needed
                             child: Padding(
+<<<<<<< HEAD
                               padding: const EdgeInsets.only(left: 16.0, right: 6.0),
+=======
+                              padding: const EdgeInsets.only(left: 10.0, right: 6.0),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                               child: Text(
                                 "Your Text Here mn",
                                 overflow: TextOverflow.ellipsis,
@@ -123,7 +127,11 @@ class _SearchScreenState extends State<SearchScreen> {
                               left: 0,
                               right: 0,
                               child: Padding(
+<<<<<<< HEAD
                                   padding: EdgeInsets.only(left: 16.0, right: 7),
+=======
+                                  padding: EdgeInsets.only(left: 12.0, right: 7),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                                   child: Text("Your on",
                                     overflow: TextOverflow.ellipsis,
                                     maxLines: 2,
@@ -151,7 +159,11 @@ class _SearchScreenState extends State<SearchScreen> {
                               left: 0,
                               right: 0,
                               child: Padding(
+<<<<<<< HEAD
                                   padding: EdgeInsets.only(left: 16.0, right: 7),
+=======
+                                  padding: EdgeInsets.only(left: 12.0, right: 7),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                                   child: Text("Your on",
                                     overflow: TextOverflow.ellipsis,
                                     maxLines: 2,
@@ -246,7 +258,11 @@ class _SearchScreenState extends State<SearchScreen> {
                               left: 0,
                               right: 0,
                               child: Padding(
+<<<<<<< HEAD
                                 padding: EdgeInsets.only(left: 16.0, right: 7),
+=======
+                                padding: EdgeInsets.only(left: 12.0, right: 7),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                                   child: Text("Your on",
                                     overflow: TextOverflow.ellipsis,
                                     maxLines: 2,
@@ -274,7 +290,11 @@ class _SearchScreenState extends State<SearchScreen> {
                               left: 0,
                               right: 0,
                               child: Padding(
+<<<<<<< HEAD
                                   padding: EdgeInsets.only(left: 16.0, right: 7),
+=======
+                                  padding: EdgeInsets.only(left: 12.0, right: 7),
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
                                   child: Text("Your on",
                                     overflow: TextOverflow.ellipsis,
                                     maxLines: 2,
@@ -288,12 +308,15 @@ class _SearchScreenState extends State<SearchScreen> {
               ),
             ),
             SizedBox(height: 10,),
+<<<<<<< HEAD
             Padding(
               padding: const EdgeInsets.all(8),
               child: Text("Educational videos", style: TextStyle(fontWeight: FontWeight.bold),),
             ),
             SizedBox(height: size.height *0.00001),
             //SizedBox(height: 10,),
+=======
+>>>>>>> f3a953c32e7b93b9624c7a847c88c2708e18cd32
             SingleChildScrollView(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 12.0),
